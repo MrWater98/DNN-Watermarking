@@ -1,13 +1,13 @@
- # this program defines the topology parameters
- # for the main black-box setting
+# this program defines the topology parameters
+# for the main black-box setting
 
 from __future__ import division
 from __future__ import print_function
 import keras.utils.np_utils as kutils
 import keras
 from keras.datasets import mnist
-from keras.models import Sequential
-from keras.layers import Dense, Dropout
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout
 from keras.optimizers import RMSprop, SGD
 import keras.backend as K
 import numpy as np
